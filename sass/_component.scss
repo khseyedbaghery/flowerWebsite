@@ -1,0 +1,209 @@
+.main-container {
+
+  /////////////////// Section-1 :
+  .container-card-section1 {
+    .row {
+      font-family: $font-koodak;
+
+      .flower-card {
+        border-radius: unset;
+
+        img {
+          width: 130px;
+
+        }
+      }
+
+      .flower-card:nth-child(1) {
+        background-color: $color-blu4;
+
+      }
+
+      .flower-card:nth-child(2) {
+        background-color: $color-blu3;
+
+      }
+
+      .flower-card:nth-child(3) {
+        background-color: $color-blu2;
+
+      }
+    }
+  }
+
+  //////////////////// Section-2 :
+  .container-section2 {
+
+    .section2-paragraph {
+      font-family: $font-danstevis;
+      line-height: 40px;
+    }
+
+    .section2-continue {
+      margin-top: -47px;
+
+      a {
+        width: 110px;
+        //font-family: $font-danstevis;
+        //font-size: 22px;
+      }
+
+    }
+
+    .cute-flower-container {
+
+      .cute-flower {
+        //width: 350px;
+        height: 260px;
+        //border-radius: 3px;
+        //object-fit: cover;
+      }
+
+    }
+  }
+
+  /////////////////// Section-3 :
+
+  .container-section3 {
+
+    &-flower {
+      img {
+        //object-fit: cover;
+        // height: 400px;
+        height: auto;
+      }
+    }
+
+    &-paragraph {
+
+      background-color: $color-pink1;
+      // line-height: 1.2rem;
+      padding-right: 85px;
+      font-family: $font-koodak;
+      color: $color-white;
+
+
+      .property-item {
+        color: $color-black;
+        font-weight: bold;
+        font-size: 19px;
+
+        i {
+          color: $color-blu0;
+          font-size: 25px;
+        }
+      }
+
+    }
+
+  }
+
+  /////////////////// Section-4 :
+
+  .section4-container {
+
+    .section4-header {
+      direction: rtl;
+      font-weight: bold;
+
+      h2 {
+        font-family: $font-Nazanin;
+        font-size: 50px;
+      }
+
+      h4 {
+        font-family: $font-danstevis;
+        font-size: 30px;
+      }
+    }
+
+    .owl-carousel.owl-rtl .owl-item {
+      cursor: grab;
+      
+    }
+
+  }
+
+  /////////////////// Section-5 :
+
+  .section5-container {
+    // background-image: url("../images/sunflower-field.jpg");
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background: url("../images/sunflower-field.jpg") no-repeat fixed;
+    background-size: cover;
+    padding: 130px 10px 80px 10px;
+    // padding-top: 120px;
+
+    .section5-colmon {
+
+      // height: 600px;
+      background-color: $color-blu1;
+      // background-color: $color-pink1;
+      border-radius: 3px;
+
+      .my-card {
+
+        &-header {
+          
+          border-radius: 3px;
+          border-bottom-right-radius: 50%;
+          border-bottom-left-radius: 50%;
+          border-bottom: 2px soloid black;
+          background-color: $color-blu4;
+          font-family: $font-nastaliq;
+
+          p {
+            // font-family: $font-Nazanin;
+            font-size: 25px;
+          }
+        }
+
+        &-body {
+          font-family: $font-koodak;
+          font-size: 19px;
+          margin-top: 20px;
+          color: $color-white;
+
+          i {
+            font-size: 15px;
+            padding-left: 7px;
+          }
+
+        }
+
+        .my-button {
+          background-color: $color-pink1;
+          border-color: $color-pink1;
+
+          &:before,
+          &:after {
+
+            border-color: $color-pink1;
+          }
+        }
+
+      }
+
+    }
+
+    .section5-colmon:nth-child(2) {
+
+      background-color: $color-white;
+      position: relative;
+      top: -60px;
+
+      .my-card-header {
+        background-color: $color-pink1;
+        color: $color-white;
+      }
+
+      .my-card-body {
+        color: $color-blu0;
+      }
+    }
+  }
+
+}
+
+//////////////////// footer

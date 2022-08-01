@@ -1,0 +1,73 @@
+//variable color
+$color-black : #000;
+$color-white : #fff;
+$color-gray : #909090;
+$color-green1 : #B4FF9F;
+$color-yellow1 : #F9FFA4;
+$color-yellow2 : #FFE61B;
+$color-orange1 : #FFD59E;
+$color-orange2 : #FFB72B;
+$color-pink1 : #f32626;
+$color-pink2 : #FFA1A1;
+$color-red1: #f55353e0;
+$color-blu0 : #0d1972;
+$color-blu1 : #242F9B;
+$color-blu2 : #646FD4;
+$color-blu3 : #9BA3EB;
+$color-blu4 : #DBDFFD;
+
+$color-button: #007bff;
+
+
+
+
+
+//variable font
+$font-nastaliq : IranNastaliq;
+$font-koodak : B Koodak Bold_0;
+$font-danstevis : danstevis;
+$font-khat-khati : khat-khati-02;
+$font-Nazanin : Nazanin;
+
+
+//font
+@font-face {
+    font-family: IranNastaliq;
+    src: url('../font/IranNastaliq.eot') format('eot');
+    src: url('../font/IranNastaliq.ttf') format('ttf');
+    src: url('../font/IranNastaliq.woff') format('woff');
+}
+
+@font-face {
+    font-family: B Koodak Bold_0;
+    src: url('../font/B Koodak Bold_0.eot') format('eot');
+    src: url('../font/B Koodak Bold_0.ttf') format('ttf');
+    src: url('../font/B Koodak Bold_0.woff') format('woff');
+}
+
+@font-face {
+    font-family: danstevis;
+    src: url('../font/danstevis.eot') format('eot');
+    src: url('../font/danstevis.eot') format('ttf');
+    src: url('../font/danstevis.woff') format('woff');
+}
+
+@font-face {
+    font-family: khat-khati-02;
+    src: url('../font/khat-khati-02.eot') format('eot');
+    src: url('../font/khat-khati-02.ttf') format('ttf');
+    src: url('../font/khat-khati-02.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: Nazanin;
+    src: url('../font/Nazanin.eot') format('eot');
+    src: url('../font/Nazanin.ttf') format('ttf');
+    src: url('../font/Nazanin.woff') format('woff');
+}
+
+
+
+
+// MIXIN

@@ -1,0 +1,478 @@
+@font-face {
+  font-family: IranNastaliq;
+  src: url("../font/IranNastaliq.eot") format("eot");
+  src: url("../font/IranNastaliq.ttf") format("ttf");
+  src: url("../font/IranNastaliq.woff") format("woff");
+}
+
+@font-face {
+  font-family: B Koodak Bold_0;
+  src: url("../font/B Koodak Bold_0.eot") format("eot");
+  src: url("../font/B Koodak Bold_0.ttf") format("ttf");
+  src: url("../font/B Koodak Bold_0.woff") format("woff");
+}
+
+@font-face {
+  font-family: danstevis;
+  src: url("../font/danstevis.eot") format("eot");
+  src: url("../font/danstevis.eot") format("ttf");
+  src: url("../font/danstevis.woff") format("woff");
+}
+
+@font-face {
+  font-family: khat-khati-02;
+  src: url("../font/khat-khati-02.eot") format("eot");
+  src: url("../font/khat-khati-02.ttf") format("ttf");
+  src: url("../font/khat-khati-02.woff") format("woff");
+}
+
+@font-face {
+  font-family: Nazanin;
+  src: url("../font/Nazanin.eot") format("eot");
+  src: url("../font/Nazanin.ttf") format("ttf");
+  src: url("../font/Nazanin.woff") format("woff");
+}
+
+.my-button {
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: danstevis;
+  font-size: 22px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.my-button:before,
+.my-button:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.my-button:before {
+  border-color: #007bff;
+  border-right-width: 2px;
+  border-top-width: 2px;
+  right: -5px;
+  top: -5px;
+}
+
+.my-button:after {
+  border-bottom-width: 2px;
+  border-color: #007bff;
+  border-left-width: 2px;
+  bottom: -5px;
+  left: -5px;
+}
+
+.my-button:hover,
+.my-button.hover {
+  background-color: #007bff;
+}
+
+.my-button:hover:before,
+.my-button.hover:before,
+.my-button:hover:after,
+.my-button.hover:after {
+  height: 100%;
+  width: 100%;
+}
+
+.main-container .container-card-section1 .row {
+  font-family: B Koodak Bold_0;
+}
+
+.main-container .container-card-section1 .row .flower-card {
+  border-radius: unset;
+}
+
+.main-container .container-card-section1 .row .flower-card img {
+  width: 130px;
+}
+
+.main-container .container-card-section1 .row .flower-card:nth-child(1) {
+  background-color: #DBDFFD;
+}
+
+.main-container .container-card-section1 .row .flower-card:nth-child(2) {
+  background-color: #9BA3EB;
+}
+
+.main-container .container-card-section1 .row .flower-card:nth-child(3) {
+  background-color: #646FD4;
+}
+
+.main-container .container-section2 .section2-paragraph {
+  font-family: danstevis;
+  line-height: 40px;
+}
+
+.main-container .container-section2 .section2-continue {
+  margin-top: -47px;
+}
+
+.main-container .container-section2 .section2-continue a {
+  width: 110px;
+}
+
+.main-container .container-section2 .cute-flower-container .cute-flower {
+  height: 260px;
+}
+
+.main-container .container-section3-flower img {
+  height: auto;
+}
+
+.main-container .container-section3-paragraph {
+  background-color: #f32626;
+  padding-right: 85px;
+  font-family: B Koodak Bold_0;
+  color: #fff;
+}
+
+.main-container .container-section3-paragraph .property-item {
+  color: #000;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.main-container .container-section3-paragraph .property-item i {
+  color: #0d1972;
+  font-size: 25px;
+}
+
+.main-container .section4-container .section4-header {
+  direction: rtl;
+  font-weight: bold;
+}
+
+.main-container .section4-container .section4-header h2 {
+  font-family: Nazanin;
+  font-size: 50px;
+}
+
+.main-container .section4-container .section4-header h4 {
+  font-family: danstevis;
+  font-size: 30px;
+}
+
+.main-container .section4-container .owl-carousel.owl-rtl .owl-item {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.main-container .section5-container {
+  background: url("../images/sunflower-field.jpg") no-repeat fixed;
+  background-size: cover;
+  padding: 130px 10px 80px 10px;
+}
+
+.main-container .section5-container .section5-colmon {
+  background-color: #242F9B;
+  border-radius: 3px;
+}
+
+.main-container .section5-container .section5-colmon .my-card-header {
+  border-radius: 3px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom: 2px soloid black;
+  background-color: #DBDFFD;
+  font-family: IranNastaliq;
+}
+
+.main-container .section5-container .section5-colmon .my-card-header p {
+  font-size: 25px;
+}
+
+.main-container .section5-container .section5-colmon .my-card-body {
+  font-family: B Koodak Bold_0;
+  font-size: 19px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.main-container .section5-container .section5-colmon .my-card-body i {
+  font-size: 15px;
+  padding-left: 7px;
+}
+
+.main-container .section5-container .section5-colmon .my-card .my-button {
+  background-color: #f32626;
+  border-color: #f32626;
+}
+
+.main-container .section5-container .section5-colmon .my-card .my-button:before, .main-container .section5-container .section5-colmon .my-card .my-button:after {
+  border-color: #f32626;
+}
+
+.main-container .section5-container .section5-colmon:nth-child(2) {
+  background-color: #fff;
+  position: relative;
+  top: -60px;
+}
+
+.main-container .section5-container .section5-colmon:nth-child(2) .my-card-header {
+  background-color: #f32626;
+  color: #fff;
+}
+
+.main-container .section5-container .section5-colmon:nth-child(2) .my-card-body {
+  color: #0d1972;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: rtl;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.container-header .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.container-header .carousel-indicators li:hover {
+  background-color: #f55353e0;
+}
+
+.container-header button > i {
+  font-size: 65px;
+}
+
+.container-header .carousel-caption {
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-family: IranNastaliq;
+  font-size: 50px;
+  color: #242F9B;
+}
+
+.container-header .carousel-caption .flower-container {
+  background-color: #DBDFFD;
+  opacity: 0.8;
+  height: 210px;
+  width: 750px;
+  margin: auto;
+}
+
+.container-header .carousel-item img {
+  height: 650px;
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+}
+
+.navbar {
+  background-color: #0d1972;
+}
+
+.navbar .brand .navbar-brand .flower-logo {
+  width: 90px;
+  height: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.navbar .social-media a {
+  color: #fff;
+  font-size: 19px;
+  margin: 0 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar .social-media a:hover {
+  color: #f55353e0;
+}
+
+.navbar .navbar-nav {
+  font-family: B Koodak Bold_0;
+}
+
+.navbar .navbar-nav .nav-item {
+  text-align: center;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0 3px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #f55353e0;
+  border-bottom: 2px solid #f55353e0;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #f55353e0;
+  border-bottom: 2px solid #f55353e0;
+}
+
+.navbar .dropdown-menu {
+  text-align: center;
+  left: -60%;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar .form-inline .form-control {
+    width: 135px;
+  }
+  .navbar .form-inline button {
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .navbar .form-inline .form-control {
+    width: auto;
+  }
+  .navbar .form-inline button {
+    width: auto;
+  }
+}
+
+.inner-navbar .inner-navbar-container {
+  border: 2px solid #fff;
+  position: fixed;
+  z-index: 2000;
+  bottom: 65px;
+  left: 15px;
+  background-color: #242F9B;
+}
+
+.inner-navbar .inner-navbar-container .in-nav-list {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-navbar .inner-navbar-container .in-nav-item {
+  padding: 0;
+}
+
+.inner-navbar .inner-navbar-container .in-nav-link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 4px 11px;
+  border-radius: 0;
+}
+
+.inner-navbar .inner-navbar-container .in-nav-link:hover {
+  color: #f32626;
+}
+
+.inner-navbar .inner-navbar-container .in-nav-link.active {
+  background-color: #f32626;
+}
+
+.inner-navbar .inner-navbar-container .in-nav-link.active:hover {
+  color: #fff;
+}
+
+.tooltip {
+  left: 2px !important;
+}
+
+.tooltip-inner {
+  background-color: #f32626;
+  font-family: Nazanin;
+  font-size: 18px;
+}
+
+.bs-tooltip-right .arrow::before {
+  border-right-color: #f32626;
+}
+
+.my-owl-carousel .my-owl-item {
+  color: #909090;
+  background-color: #DBDFFD;
+  line-height: 3em;
+  height: 250px;
+  margin-top: 45px;
+}
+
+.my-owl-carousel .my-owl-item:hover {
+  background-color: #242F9B;
+}
+
+.my-owl-carousel .my-owl-item:hover h3 {
+  color: #fff;
+}
+
+.my-owl-carousel .my-owl-item:hover i {
+  color: #000;
+}
+
+.my-owl-carousel .my-owl-item i {
+  width: 90px;
+  padding: 20px;
+  font-size: 35px;
+  border: 3px solid #0d1972;
+  background-color: #DBDFFD;
+  border-radius: 50%;
+  position: relative;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  top: -65px;
+}
+
+.my-owl-carousel .my-owl-item h3 {
+  color: #000;
+  font-family: khat-khati-02;
+}
+
+.my-owl-carousel .my-owl-item p {
+  font-family: Nazanin;
+  font-size: 20px;
+}
+
+.footer-container {
+  background-color: #0d1972;
+  color: #fff;
+  font-family: Nazanin;
+  padding-top: 40px;
+}
+
+.footer-icon {
+  font-size: 35px;
+  background-color: #242F9B;
+  padding: 25px;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  color: #f55353e0;
+}
+
+.footer-header {
+  font-size: 30px;
+  font-family: B Koodak Bold_0;
+}
+
+.footer-text {
+  font-size: 15px;
+  line-height: 30px;
+  color: #909090;
+}
+/*# sourceMappingURL=main.css.map */
